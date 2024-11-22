@@ -1,24 +1,26 @@
 {
+  "homepage": "https://kh-parveg-hossain.github.io/e-com-react-js",
   "name": "my-project",
-  "home":"https://github.com/kh-parveg-hossain/e-com-react-js",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
     "react-scroll": "^1.9.0",
     "react-slick": "^0.30.2",
+    "save-dev": "^0.0.1-security",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
